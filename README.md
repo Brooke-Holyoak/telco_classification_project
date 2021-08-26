@@ -4,10 +4,16 @@
 
 ****
 ## Project Goals:
-
+-Acquire Data: from a SQL database
+-Clean data:  
+>-ie: look at null-values and either drop or impute values or rows where appropriate.
+>-assign scalar values to columns containing strings to allow modeling to work
 
 ****
 ## Initial Hypotheses:
+-Customers without bundled services are more likely to churn.
+-Customers without auto-pay are more likely to churn.
+-Customers without partners or dependents are more likely to churn.
 
 
 ****
